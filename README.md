@@ -7,6 +7,7 @@ My Dockerfiles
 ### How to use
 #### Automatic
 Linux installation/update: 
+
 `curl https://raw.githubusercontent.com/Racle/Dockerfiles/master/redis-desktop-manager/install.sh | sudo bash`
 
 Installs .desktop file to use from launcher, or you can use 'rdm' in terminal.
