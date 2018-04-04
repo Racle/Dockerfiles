@@ -5,6 +5,7 @@ echo Removing old files..
 rm /usr/share/redis-desktop-manager/rdm.png
 rm /usr/share/redis-desktop-manager/rdm.sh
 rm /usr/share/applications/racle-rdm.desktop
+rm /usr/local/bin/rdm
 echo Getting new files..
 wget https://raw.githubusercontent.com/uglide/RedisDesktopManager/0.9/src/resources/rdm.png -P /usr/share/redis-desktop-manager/ > /dev/null 2>&1
 wget https://raw.githubusercontent.com/Racle/Dockerfiles/master/redis-desktop-manager/rdm.sh -P /usr/share/redis-desktop-manager/ > /dev/null 2>&1
