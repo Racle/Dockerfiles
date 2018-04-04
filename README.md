@@ -5,13 +5,13 @@ My Dockerfiles
 ## Redis-desktop-manager
 
 ### How to use
-# Automatic
+#### Automatic
 Linux installation/update: 
 `curl https://raw.githubusercontent.com/Racle/Dockerfiles/master/redis-desktop-manager/install.sh | sudo bash`
 
 Installs .desktop file to use from launcher, or you can use 'rdm' in terminal.
 
-# Manual
+#### Manual
 
 `docker run  -it --rm \`
 `   -v /tmp/.X11-unix:/tmp/.X11-unix \`
