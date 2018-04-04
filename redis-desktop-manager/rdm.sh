@@ -1,6 +1,8 @@
 #!/bin/sh
 xhost +local:docker
-docker run -it --rm \
+docker stop redis-desktop-manager
+docker rm redis-desktop-manager
+docker run --rm \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v $HOME/.rdm:/root/.rdm \
     -e DISPLAY \
