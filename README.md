@@ -8,7 +8,7 @@ https://hub.docker.com/r/racle90/redis-desktop-manager/
 #### Automatic
 Linux installation/update: 
 
-`curl https://raw.githubusercontent.com/Racle/Dockerfiles/master/redis-desktop-manager/install.sh | sudo bash`
+`curl -s https://raw.githubusercontent.com/Racle/Dockerfiles/master/redis-desktop-manager/install.sh | sudo bash`
 
 Installs .desktop file to use from launcher, or you can use 'rdm' in terminal.
 
