@@ -14,6 +14,6 @@ chmod a+x /usr/share/applications/racle-rdm.desktop
 chmod a+x /usr/share/redis-desktop-manager/rdm.sh
 ln -s /usr/share/redis-desktop-manager/rdm.sh /usr/local/bin/rdm
 #fixing .destop icon bug
-sed -i 's/\r//' /usr/share/applications/racle-rdm.desktop
+sed -i 's/\r//' /usr/share/applications/rdm.desktop
 echo Pulling latest docker image...
 docker pull racle90/redis-desktop-manager
