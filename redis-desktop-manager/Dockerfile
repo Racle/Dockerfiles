@@ -9,7 +9,6 @@ RUN apt-get update \
     && git clone --recursive https://github.com/uglide/RedisDesktopManager.git -b 0.9 /rdm \
     && cd /rdm/src \
     && ./configure \
-    && cat /opt/qt59/bin/qt59-env.sh \
     && . /opt/qt59/bin/qt59-env.sh \
     && qmake \
     && make \
