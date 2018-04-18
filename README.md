@@ -4,6 +4,9 @@ My Dockerfiles
 
 ## Redis-desktop-manager
 https://hub.docker.com/r/racle90/redis-desktop-manager/
+
+[Redis Desktop Manager](https://redisdesktop.com/) on docker. Enjoy!
+
 ### How to use
 #### Automatic
 Linux installation/update: 
